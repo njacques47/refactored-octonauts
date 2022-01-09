@@ -5,17 +5,5 @@ AS A marketing agency </br>
 I WANT a codebase that follows accessibility standards </br>
 SO THAT our own site is optimized for search engines
 
-## Acceptance Criteria
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code </br>
-THEN I find semantic HTML elements </br>
-WHEN I view the structure of the HTML elements </br>
-THEN I find that the elements follow a logical structure independent of styling and positioning </br>
-WHEN I view the image elements </br>
-THEN I find accessible alt attributes </br>
-WHEN I view the heading attributes </br>
-THEN they fall in sequential order </br>
-WHEN I view the title element </br>
-THEN I find a concise, descriptive title </br>
-
-are saying that a few times it has to click, "why is 
+## Changes Made
+The appropriate semantic HTML was added to denote the header and footer elements. All images now have an empty alt tag to denote that the image is not informational and should not be read by screen readers. I also changed the classes and removed the IDs because they were repetitive. The stylesheet was updated accordingly to reflect those changes and condense the styling that was repeated. 
